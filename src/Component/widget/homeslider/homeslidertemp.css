@@ -1,0 +1,36 @@
+.caption{
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6rem;
+    position:absolute;
+    top:70%;
+    text-align: center;
+    color:white;
+    padding: 1.1rem 2.0rem;
+    background-image: linear-gradient(120deg, #0d0d13 34%,);
+    margin: 0 0 2rem 0;
+    font-size: 1.5rem;
+}
+.ImageSlide{
+    width: 100%;
+    height: 2%;
+}
+.card {
+    margin: 1rem;
+    background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .2s linear;
+  }
+  
+
+h1 {
+    text-align: center;
+    padding: 1.1rem 2.0rem;
+    background-image: linear-gradient(120deg, #0d0d13 0%,#dddddd, #1c1d1f 100%);
+    margin: 0 0 2rem 0;
+    font-size: 1.5rem;
+    color: white;
+  }
+  

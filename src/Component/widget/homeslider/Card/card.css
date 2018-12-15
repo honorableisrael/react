@@ -1,0 +1,47 @@
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.card {
+    margin: 1rem;
+    background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-bottom: 9px;
+    overflow: hidden;
+    transition: all .2s linear;
+     }
+  .button a{
+      padding: 10px 4px;
+      text-decoration: none;
+      color: black;
+      font-size:16px;
+      border-color: none;
+  }
+  p {
+    padding: 0 1.5rem 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.1rem;
+    margin: 0;
+  }
+  h1 {
+    text-align: center;
+    padding: 1.0rem 1.0rem;
+    background-image: linear-gradient(120deg,black 0%, #1c1d1f 100%);
+    margin: 0 0 2rem 0;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  

@@ -1,0 +1,6 @@
+.headerItem{
+    position: absolute;
+    top:10px;
+    font-size:28px;
+    cursor: pointer;
+}
