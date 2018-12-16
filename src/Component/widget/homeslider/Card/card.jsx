@@ -13,10 +13,10 @@ class Cards extends Component{
     this.setState({news: this.props.news});
 }
     render(){
-        console.log(this.state.news)
+        console.log(this.props.news)
 
     let template;
-    template = this.state.news.map((newsItem,index)=>{
+    template = this.props.news.map((newsItem,index)=>{
         return(
                 <div key={index} className={styles.container}>
                     <div className={styles.card}>

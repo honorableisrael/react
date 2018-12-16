@@ -11,7 +11,7 @@ body {
    
   .nav ul {
     list-style: none;
-    background-color: #444;
+    background-color:rgba(17, 16, 16, 0.486);
     text-align: center;
     padding: 0;
     margin: 0;
@@ -67,7 +67,8 @@ body {
     } */
     .nav {
       font-size:13px;
-      background-color: #444;
+      list-style-position: inside;
+      background-color: rgba(17, 16, 16, 0.486);
     }
    
   }
@@ -77,3 +78,31 @@ body {
     overflow: hidden;
     height: 40px;
 }
+li {
+  display: block;
+  transition-duration: 0.5s;
+ }
+ 
+ li:hover {
+   cursor: pointer;
+ }
+ 
+  ul li ul {
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.5s ease;
+   margin-top: 1rem;
+   display: none;
+ }
+ 
+  ul li:hover > ul,
+ ul li ul:hover {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+ }
+ 
+  ul li ul li {
+   clear: both;
+   width: 100%;
+ }

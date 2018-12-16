@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Slick from 'react-slick';
 import styles from './homeslidertemp.css'
 
@@ -15,11 +15,12 @@ const SliderTemplate=(props)=>{
             autoplay:true
           };
         template = props.news.map((newsItem,index)=>{
-            return(<div key={{index}}>
+            return(<div key={index}>
                     <div>
                         <img className={styles.ImageSlide} src={newsItem.urlToImage} alt='images slide'/>
+                        <h2>{newsItem.title}</h2>
                     </div>
-                <div className={styles.caption}><h2>{newsItem.title}</h2></div>
+                <div className={styles.caption}></div>
             </div>
             )}
         )
