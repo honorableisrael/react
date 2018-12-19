@@ -7,7 +7,6 @@ import About from '../routes/about'
 import Home from '../routes/Home/Home'
 import Login from '../widget/homeslider/LOGIN/Login'
 
-
 class Allroutes extends Component {
     render() {
         return (

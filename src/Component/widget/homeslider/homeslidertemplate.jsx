@@ -12,7 +12,8 @@ const SliderTemplate=(props)=>{
             speed: 700,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay:true
+            autoplay:true,
+            ...settings
           };
         template = props.news.map((newsItem,index)=>{
             return(<div key={index}>
